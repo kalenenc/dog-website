@@ -1,0 +1,9 @@
+name: "Tina's Dog Walking"
+description: "Something descriptive here"
+url: "http://kalenenc.github.io/"
+
+#paginate: 10
+
+markdown: kramdown
+permalink: pretty
+# highlighter: pygments

@@ -1,0 +1,124 @@
+
+
+ body {
+ 	font-family: 'Montserrat', sans-serif;
+ 	background:url(http://i730.photobucket.com/albums/ww304/pitabeadxd/yorkie_zps1gfdj780.jpg);
+	background-size:cover;
+	background-position:center;
+	height:100%;
+	background-repeat:none;
+
+ }
+
+
+/*html {
+	height:100%;
+}*/
+
+
+ .navbar-default {
+    background-color:#4FAB5B;
+    border:none;
+}
+
+.tina {
+	font-family: 'Courgette', cursive;
+	font-size:3em;
+	margin-bottom:0em;
+	
+
+
+}
+
+.dog-walking-biz {
+	color:white;
+	text-shadow:0px 4px 3px rgba(0,0,0, 0.4);
+	font-size:4em;
+	margin-top:0em;
+
+}
+
+.subtitle {
+	margin-top:1em;
+	color:white;
+	text-shadow:0px 4px 3px rgba(0,0,0, 0.4);
+
+}
+
+h1 {
+	color:#5EB4D1;
+	font-size:7em;
+	text-shadow:0px 4px 3px rgba(0,0,0, 0.4);
+	text-shadow:0px 8px 13px rgba(0,0,0,0.1);
+	text-shadow:0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.heading {
+	text-align:center;
+	margin-top:10em;
+	margin-bottom:10em;
+}
+
+
+
+.german-shepherd {
+	height:165%;
+
+}
+
+.navbar-right {
+	font-size:1.1em;
+	padding-top:3px;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+	color:white;
+	text-shadow:0px 4px 3px rgba(0,0,0, 0.4);
+	text-shadow:0px 8px 13px rgba(0,0,0,0.1);
+	text-shadow:0px 18px 23px rgba(0,0,0,0.1);
+}
+}
+
+
+.footer {
+	background:#4FAB5B;
+	padding: 1.1em;
+	text-align:center;
+}
+
+.goldie {
+	width:50%;
+	width:96%;
+}
+
+.pug {
+	width:50%;
+	width:96%;
+}
+
+.cutie {
+	width:50%;
+	width:96%;
+}
+
+.cover {
+	background:#A6E3AE;
+	padding:2em;
+}
+
+.btn-default {
+	background-color:#5EB4D1;
+	border:none;
+	color:white;
+}
+
+.btn-default:hover {
+	background-color:white;
+	border:none;
+	color:#5EB4D1;
+}
+
+.why-tina {
+	background-color:white;
+}
