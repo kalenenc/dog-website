@@ -2,14 +2,13 @@
 
  body {
  	font-family: 'Montserrat', sans-serif;
- 	background:url(http://i730.photobucket.com/albums/ww304/pitabeadxd/yorkie_zps1gfdj780.jpg);
-	background-size:cover;
-	background-position:center;
-	height:100%;
-	background-repeat:none;
 
  }
-
+ 
+ .heading img {
+	width: 100%;
+	height: auto;
+ }
 
 /*html {
 	height:100%;
@@ -53,10 +52,32 @@ h1 {
 	text-shadow:0px 18px 23px rgba(0,0,0,0.1);
 }
 
+
 .heading {
-	text-align:center;
-	margin-top:10em;
-	margin-bottom:10em;
+  margin: 0 auto;
+}
+
+.heading img {
+  padding: none;
+  margin: none;
+  width: 100%;
+  height: auto;
+}
+
+.title-wrapper {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  position: absolute;
+/*   solution 1: */
+  left: 30%;
+  right:30%;
+  top: 25%;
+  bottom:25%;
+/*   solution 2   */
+/*   left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
 }
 
 
@@ -64,6 +85,10 @@ h1 {
 .german-shepherd {
 	height:165%;
 
+}
+
+.navbar {
+	margin-bottom: 0px;
 }
 
 .navbar-right {
@@ -121,4 +146,9 @@ h1 {
 
 .why-tina {
 	background-color:white;
+	padding-left:2em;
+}
+
+h2 {
+	font-size: 4em;
 }
