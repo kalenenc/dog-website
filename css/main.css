@@ -5,15 +5,6 @@
 
  }
  
- .heading img {
-	width: 100%;
-	height: auto;
- }
-
-/*html {
-	height:100%;
-}*/
-
 
  .navbar-default {
     background-color:#4FAB5B;
@@ -52,35 +43,23 @@ h1 {
 	text-shadow:0px 18px 23px rgba(0,0,0,0.1);
 }
 
-
 .heading {
-  margin: 0 auto;
+	text-align: center;
+	margin-top:20%;
+	margin-bottom:20%;
+	/*font-size:1.5em;*/
 }
 
-.heading img {
-  padding: none;
-  margin: none;
-  width: 100%;
-  height: auto;
+body {
+	background: url(../photos/yorkie.jpg);
+	background-size: cover;
+	background-position:center;
+	background-repeat: no-repeat;
 }
 
-.title-wrapper {
-  color: white;
-  font-size: 2em;
-  text-align: center;
-  position: absolute;
-/*   solution 1: */
-  left: 30%;
-  right:30%;
-  top: 25%;
-  bottom:25%;
-/*   solution 2   */
-/*   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%); */
+html {
+	height:100%;
 }
-
-
 
 .german-shepherd {
 	height:165%;
@@ -103,28 +82,33 @@ h1 {
 	text-shadow:0px 8px 13px rgba(0,0,0,0.1);
 	text-shadow:0px 18px 23px rgba(0,0,0,0.1);
 }
-}
 
 
 .footer {
-	background:#4FAB5B;
+	background-color:#4FAB5B;
 	padding: 1.1em;
 	text-align:center;
+
 }
 
 .goldie {
 	width:50%;
-	width:96%;
+	border-radius:100%;
+	
 }
 
 .pug {
 	width:50%;
-	width:96%;
+	border-radius:100%;
+	
 }
+
+
 
 .cutie {
 	width:50%;
-	width:96%;
+	border-radius:100%;
+
 }
 
 .cover {
@@ -146,9 +130,63 @@ h1 {
 
 .why-tina {
 	background-color:white;
-	padding-left:2em;
+/*	padding-left:2em;*/
+	padding-top:2em;
+}
+
+.blue-bg {
+	background-color: #DBF6FF;
+	padding:1em;
+	margin:2em;
 }
 
 h2 {
 	font-size: 4em;
+	text-align:center;
+
+}
+
+.why-icons {
+	display:inline-block;
+	width:170px;
+	margin-bottom:1em;
+	margin-right:5em;
+}
+
+.bulletpoint {
+	padding:3em;
+}
+
+p {
+	/*margin-left:5em;*/
+	font-size:1.3em;
+}
+
+.first-word {
+	color:#4FAB5B;
+	font-weight:bold;
+	font-size:2em;
+}
+
+.grey {
+	background-color:grey;
+	padding:1em;
+	margin-bottom:4em;
+}
+
+.get-started-2 {
+	margin: 0px auto;
+}
+
+.bottom {
+	text-align:center;
+	margin-bottom:2em;
+}
+
+#go-left {
+	text-align:left;
+}
+
+#social-media {
+	letter-spacing:1.5em;
 }
