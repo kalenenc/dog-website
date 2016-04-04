@@ -191,11 +191,11 @@ p {
 	letter-spacing:1.5em;
 }
 
-.sean {
-	color:pink;
-}
 
 /*---------About Page-------------*/
 #about-white {
-	background-color:white;
+	background-color:blue;
+	margin-top:-2em;
 }
+
+
