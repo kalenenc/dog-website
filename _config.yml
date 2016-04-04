@@ -1,6 +1,7 @@
 name: "Tina's Dog Walking"
 description: "Something descriptive here"
-# url: "http://kalenenc.github.io/"
+url: "http://kalenenc.github.io/"
+# url: "https://github.com/kalenenc/dog-website"
 baseurl: /
 
 #paginate: 10
