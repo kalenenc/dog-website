@@ -194,8 +194,9 @@ p {
 
 /*---------About Page-------------*/
 #about-white {
-	background-color:blue;
+	background-color:white;
 	margin-top:-2em;
+	padding:2em;
 }
 
 
