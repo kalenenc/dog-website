@@ -5,6 +5,16 @@
 
  }
  
+.row {
+	margin-right:0px;
+}
+
+ .banner-img {
+	background: url(../photos/yorkie.jpg);
+	background-size: cover;
+	background-position:center;
+	background-repeat: no-repeat;
+}
 
  .navbar-default {
     background-color:#4FAB5B;
@@ -50,13 +60,6 @@ h1 {
 	/*font-size:1.5em;*/
 }
 
-body {
-	background: url(../photos/yorkie.jpg);
-	background-size: cover;
-	background-position:center;
-	background-repeat: no-repeat;
-}
-
 html {
 	height:100%;
 }
@@ -92,22 +95,22 @@ html {
 }
 
 .goldie {
-	width:50%;
-	border-radius:100%;
+	width:93%;
+	/*border-radius:100%;*/
 	
 }
 
 .pug {
-	width:50%;
-	border-radius:100%;
+	width:93%;
+	/*border-radius:100%;*/
 	
 }
 
 
 
 .cutie {
-	width:50%;
-	border-radius:100%;
+	width:93%;
+	/*border-radius:100%;*/
 
 }
 
@@ -135,7 +138,7 @@ html {
 }
 
 .blue-bg {
-	background-color: #DBF6FF;
+	background-color: #ceebdb;
 	padding:1em;
 	margin:2em;
 }
@@ -143,6 +146,8 @@ html {
 h2 {
 	font-size: 4em;
 	text-align:center;
+	color:#4d4d4d;
+	text-shadow: 0px 8px 13px rgba(0,0,0,0.2);
 
 }
 
@@ -166,10 +171,11 @@ p {
 	color:#4FAB5B;
 	font-weight:bold;
 	font-size:2em;
+	text-shadow: 0px 8px 13px rgba(0,0,0,0.2);
 }
 
 .grey {
-	background-color:grey;
+	background-color:#5EB4D1;
 	padding:1em;
 	margin-bottom:4em;
 }
@@ -191,6 +197,42 @@ p {
 	letter-spacing:1.5em;
 }
 
+.logo {
+	text-align:center;
+	width: 25%;
+}
+
+.call-to-action {
+	color:white;
+	text-shadow: 0px 8px 13px rgba(0,0,0,0.2);
+}
+
+.inner-call {
+	color:white;
+}
+
+.call-subtitle {
+	color:#4d4d4d;
+	text-align: center;
+}
+.age {
+	color:#4FAB5B;
+	text-shadow: 0px 8px 13px rgba(0,0,0,0.2);
+}
+
+.get-started-imgs {
+	opacity:1.0;
+	border-radius:20px;
+	margin-top:2em;
+	margin-bottom:1.5em;
+}
+
+
+.get-started-imgs:hover {
+	opacity:0.7;
+
+}
+
 
 /*---------About Page-------------*/
 #about-white {
@@ -199,4 +241,6 @@ p {
 	padding:2em;
 }
 
-
+.mom {
+	float:right;
+}
