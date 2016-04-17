@@ -231,7 +231,7 @@ p {
 }
 .age {
 	color:#4FAB5B;
-	text-shadow: 0px 8px 13px rgba(0,0,0,0.2);
+	/*text-shadow: 0px 8px 13px rgba(0,0,0,0.2);*/
 }
 
 .get-started-imgs {
@@ -245,26 +245,44 @@ p {
 .get-started-imgs:hover {
 	opacity:0.7;
 
+
+}
+
+.icons {
+	/*text-decoration:none;*/
+	color:white;
+}
+
+.icons:hover {
+	text-decoration:none;
+	color:#5EB4D1;
 }
 
 
 /*---------About Page-------------*/
+
+
 #about-white {
-	background-color:white;
+	background-color:#F5F5F5;
 	margin-top:-2em;
 	padding:2em;
 }
 
+.about-dog-walking {
+	margin-top:2em;
+	color:#5EB4D1;
+}
+
 .mom {
-	float:right;
+	width:100%;
 }
 
 .about-image {
 	width:100%;
 	margin-top:2em;
 	margin-bottom:2em;
-	border:1em solid #5EB4D1;
-	border-radius:5px;
+	/*border:1em solid #5EB4D1;
+	border-radius:5px;*/
 }
 
 .indent {
@@ -290,10 +308,49 @@ li {
 }
 
 .about-center p {
-	color:#236FAD;
+	color:#5C915C;
 }
 
 .expect {
 	margin-bottom:1em;
 	color:#4FAB5B;
+}
+
+#button-center-child {
+	text-align:center;
+	margin:2em;
+}
+
+.about-tina {
+	color:#5EB4D1;
+}
+
+.paws {
+	color:#734949;
+}
+/*
+New Clients*/
+
+
+textarea {
+	width:50%;
+	height:100px;
+}
+
+.k-container {
+	margin-left:25%;
+	margin-right:25%;
+	width:50%;
+	background:#ceebdb;
+	padding:1em;
+	border-radius:5px;
+}
+
+input {
+  padding:1em;
+  margin:0.5em;
+  border-radius:5px;
+  border: 1px solid #ccc;
+  width:95%
+ 
 }

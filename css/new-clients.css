@@ -1,0 +1,22 @@
+textarea {
+	width:50%;
+	height:100px;
+}
+
+.k-container {
+	margin-left:25%;
+	margin-right:25%;
+	width:50%;
+	background:#ceebdb;
+	padding:1em;
+	border-radius:5px;
+}
+
+input {
+  padding:1em;
+  margin:0.5em;
+  border-radius:5px;
+  border: 1px solid #ccc;
+  width:95%
+ 
+}
