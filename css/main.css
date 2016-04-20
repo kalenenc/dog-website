@@ -2,6 +2,7 @@
 
  body {
  	font-family: 'Montserrat', sans-serif;
+ 	background-color: #F5F5F5;
 
  }
  
@@ -143,7 +144,7 @@ html {
 }
 
 .why-tina {
-	background-color:white;
+	background-color:#F5F5F5;
 /*	padding-left:2em;*/
 	padding-top:2em;
 }
@@ -153,6 +154,17 @@ html {
 	border-radius:5px;
 	padding:1em;
 	margin:2em;
+}
+
+@media screen and (max-width:600px) {
+
+	.blue-bg {
+	background-color: #ceebdb;
+	border-radius:5px;
+	padding:1em;
+	margin:0.5em 0.5em 2em 0.5em;
+}
+
 }
 
 h2 {
@@ -285,6 +297,17 @@ p {
 	border-radius:5px;*/
 }
 
+@media screen and (max-width:992px)  {
+
+	.about-image {
+	width:100%;
+	margin:1em;
+	/*border:1em solid #5EB4D1;
+	border-radius:5px;*/
+}
+
+}
+
 .indent {
 	margin-left:3em;
 }
@@ -299,6 +322,17 @@ p {
 	border-radius:5px;
 
 }
+
+@media screen and (max-width:600px) {
+	.about-center {
+	background-color:#ceebdb;
+	padding:1em;
+	border-radius:5px;
+	margin:0;
+
+}
+}
+
 .expect-text {
 	color: #999999;
 }
@@ -332,25 +366,3 @@ li {
 New Clients*/
 
 
-textarea {
-	width:50%;
-	height:100px;
-}
-
-.k-container {
-	margin-left:25%;
-	margin-right:25%;
-	width:50%;
-	background:#ceebdb;
-	padding:1em;
-	border-radius:5px;
-}
-
-input {
-  padding:1em;
-  margin:0.5em;
-  border-radius:5px;
-  border: 1px solid #ccc;
-  width:95%
- 
-}

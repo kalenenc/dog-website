@@ -1,0 +1,52 @@
+p {
+	text-align:center;
+}
+
+form {
+	width:40%;
+	margin:0 auto;
+	background-color:#ceebdb;
+	padding:2em;
+ 	border-radius:5px;
+ 	margin-bottom:10px; 
+}
+
+input, textarea {
+  width:100%;
+  padding:1em;
+  border-radius:5px;
+  border:1px solid #ccc;
+    
+}
+
+textarea {
+  height:9em;
+}
+
+@media screen and (max-width:992px) {
+  form {
+	width:75%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  form {
+	width:95%;
+  }
+}
+
+input[type=submit] {
+	color:white;
+	width:25%;
+	margin:0 auto;
+	background:#5EB4D1;
+	border-radius:5px;
+	padding:1em;
+	border:1px solid #5EB4D1;
+
+}
+
+#submit-button {
+	margin-top:28px;
+	text-align:center;
+}
