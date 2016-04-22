@@ -1,5 +1,15 @@
+.contact-heading {
+	margin-top:2em;
+	background-color:white;
+	border-radius:10px;
+	padding:0.5em;
+	color:#5EB4D1;
+	margin-bottom:1em;
+}
+
 p {
 	text-align:center;
+	margin-bottom:56px;
 }
 
 form {
@@ -11,7 +21,7 @@ form {
  	margin-bottom:10px; 
 }
 
-input, textarea {
+input[type=text], input[type=email], textarea {
   width:100%;
   padding:1em;
   border-radius:5px;
@@ -27,6 +37,7 @@ textarea {
   form {
 	width:75%;
   }
+
 }
 
 @media screen and (max-width:600px) {
@@ -35,18 +46,25 @@ textarea {
   }
 }
 
+
+
+
 input[type=submit] {
 	color:white;
-	width:25%;
-	margin:0 auto;
 	background:#5EB4D1;
 	border-radius:5px;
 	padding:1em;
 	border:1px solid #5EB4D1;
+	text-align:center;
 
 }
 
+
+div input[type=submit] {
+	text-align: center;
+}
+
 #submit-button {
-	margin-top:28px;
 	text-align:center;
+	margin-top:2em;
 }

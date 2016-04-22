@@ -99,6 +99,10 @@ html {
 }
 
 
+.footer-text {
+	color:white;
+}
+
 .footer {
 	background-color:#4FAB5B;
 	padding: 1.1em;
@@ -274,6 +278,10 @@ p {
 /*---------About Page-------------*/
 
 
+.paw-print {
+	margin-top:2em;
+}
+
 #about-white {
 	background-color:#F5F5F5;
 	margin-top:-2em;
@@ -281,7 +289,6 @@ p {
 }
 
 .about-dog-walking {
-	margin-top:2em;
 	color:#5EB4D1;
 }
 
@@ -308,8 +315,17 @@ p {
 
 }
 
+
+
 .indent {
 	margin-left:3em;
+}
+
+@media screen and (max-width:600px) {
+	.indent {
+		margin-left:0;
+	}
+
 }
 
 .fa-heart {
@@ -357,6 +373,7 @@ li {
 
 .about-tina {
 	color:#5EB4D1;
+	margin-bottom:24px;
 }
 
 .paws {
