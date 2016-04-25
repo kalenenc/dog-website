@@ -1,8 +1,5 @@
 .contact-heading {
 	margin-top:2em;
-	background-color:white;
-	border-radius:10px;
-	padding:0.5em;
 	color:#5EB4D1;
 	margin-bottom:1em;
 }
@@ -16,7 +13,7 @@ form {
 	width:40%;
 	margin:0 auto;
 	background-color:#ceebdb;
-	padding:2em;
+	padding:2em; 
  	border-radius:5px;
  	margin-bottom:10px; 
 }
