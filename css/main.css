@@ -22,6 +22,10 @@
     border:none;
 }
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	color:pink;
+}
+
 .tina {
 	font-family: 'Courgette', cursive;
 	font-size:3em;
