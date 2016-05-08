@@ -80,8 +80,25 @@ html {
 	height:100%;
 }
 
+.navbar-brand a {
+	padding:0;
+	left:50px;
+}
+
+/*.navbar-brand>img  {
+	padding:1em;
+	margin-bottom:1em
+	top:-1em;
+	position:absolute;
+}*/
+
+.german-link {
+	padding:0;
+}
+
 .german-shepherd {
-	height:165%;
+	height:8%;
+	
 
 }
 
