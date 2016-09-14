@@ -1,8 +1,8 @@
 name: "Tina's Dog Walking"
 description: "Something descriptive here"
 
-#url: "http://127.0.0.1:4000/"
-url: "http://kalenenc.github.io/dog-website/"
+url: "http://127.0.0.1:4000/"
+#url: "http://kalenenc.github.io/dog-website/"
 
 #paginate: 10
 
