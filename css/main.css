@@ -122,7 +122,9 @@ html {
 
 .footer-text {
 	color:white;
+	margin-bottom:10px;
 }
+
 
 .footer {
 	background-color:#4FAB5B;
@@ -260,11 +262,6 @@ p {
 #go-left {
 	text-align:left;
 }
-
-#social-media {
-	letter-spacing:0.5em;
-}
-
  
 
 .logo {
@@ -304,15 +301,6 @@ p {
 
 }
 
-.icons {
-	/*text-decoration:none;*/
-	color:white;
-}
-
-.icons:hover {
-	text-decoration:none;
-	color:#5EB4D1;
-}
 
 
 /*---------About Page-------------*/
