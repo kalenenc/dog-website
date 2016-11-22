@@ -1,1 +1,1 @@
-Website I'm making for my mom, hypothetically. Used making jekyll, bootstrap, and more!
+Dog-walking website I made for someone wanting to start a dog-walking business.
